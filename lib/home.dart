@@ -130,13 +130,27 @@ class _HomeState extends State<Home> {
                               child: Image.file(_image),
                             ),
                             SizedBox(height: 20),
-                            _output != null
+                            _output[0]['label'].toString().contains("9") == true
                                 ? Container(
                                     padding: EdgeInsets.symmetric(vertical: 10),
-                                    child: Text("${_output[0]['label']}",
+                                    // print the data type and his title/label
+                                    child: Text(
+                                        "${_output[0]['label']} found a date",
                                         style: TextStyle(
                                             color: Colors.white, fontSize: 20)))
-                                : Container(),
+                                : _output[0]['label']
+                                            .toString()
+                                            .contains("9") ==
+                                        false
+                                    ? Container(
+                                        padding:
+                                            EdgeInsets.symmetric(vertical: 10),
+                                        // print the data type and his title/label
+                                        child: Text("${_output[0]['label']}",
+                                            style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 20)))
+                                    : Container(),
                           ],
                         ),
                       ),

@@ -17,6 +17,7 @@ dependencies:
 
   #for icon
   flutter_launcher_icons: ^0.10.0
+  flutter_barcode_scanner: ^2.0.0
 
   
 

@@ -1,10 +1,10 @@
-0 תפוח
-1 לימונים
-2 אבוקדו
-3 קוטג׳
-4 חמאה
-5 חלב
-6 ביצים
-7 עגבניה
-8 שוקו
-9 barcode code 39
+0 Apple
+1 Lime
+2 Avocado
+3 Cottage
+4 Butter
+5 Milk
+6 Eggs
+7 Tomatto
+8 Chocolate-Milk
+9 Dates
